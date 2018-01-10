@@ -1,6 +1,6 @@
 
 
-func findSmallest(in array: [Int]) -> (offset: Int, element: Int) {
+func findSmallest<T: Comparable>(in array: [T]) -> (offset: Int, element: T) {
     
     var smallest = (offset: 0, element: array.first!)
     
@@ -17,9 +17,9 @@ func findSmallest(in array: [Int]) -> (offset: Int, element: Int) {
     return smallest
 }
 
-func selectionSort(array: [Int]) -> [Int] {
+func selectionSort<T: Comparable>(array: [T]) -> [T] {
     
-    var newArray = [Int]()
+    var newArray = [T]()
     var unorderedArray = array
     
     for _ in 0..<array.count {
@@ -35,5 +35,9 @@ func selectionSort(array: [Int]) -> [Int] {
 }
 
 let intArray = [5, 3, 6, 2, 10]
+let stringList = ["hello", ",", "World", "!"]
+let doubleList = [23.4, 12.454, 234.343, 2.2]
 
 selectionSort(array: intArray)
+selectionSort(array: stringList)
+selectionSort(array: doubleList)
