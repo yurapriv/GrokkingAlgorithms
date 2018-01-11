@@ -3,5 +3,6 @@
     <pages>
         <page name='BinarySearch'/>
         <page name='SelectionSort'/>
+        <page name='RecursionPractice'/>
     </pages>
 </playground>
