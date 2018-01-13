@@ -5,5 +5,6 @@
         <page name='SelectionSort'/>
         <page name='RecursionPractice'/>
         <page name='QuickSort'/>
+        <page name='BreadthFirstSearch'/>
     </pages>
 </playground>
