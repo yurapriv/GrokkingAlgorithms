@@ -6,5 +6,6 @@
         <page name='RecursionPractice'/>
         <page name='QuickSort'/>
         <page name='BreadthFirstSearch'/>
+        <page name='DijkstrasAlgorithm'/>
     </pages>
 </playground>
